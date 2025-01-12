@@ -88,7 +88,7 @@ def main(args) -> int:
         parser.error(
             ('Could not find blackbox_decode (used to generate CSVs from '
              'your BBL file) at %s. You may need to install it from '
-             'https://github.com/cleanflight/blackbox-tools/releases.')
+             'https://github.com/betaflight/blackbox-tools.')
             % blackbox_decode_path)
     common.BLACKBOX_DECODE_PATH = blackbox_decode_path
     log.info('Decoding with %r' % blackbox_decode_path)
